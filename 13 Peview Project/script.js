@@ -75,4 +75,5 @@ window.addEventListener('DOMContentLoaded', function () {
     function random() {
         return Math.floor(Math.random() * 4)
     }
+    console.log("test");
 })
