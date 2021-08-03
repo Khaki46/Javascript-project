@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <style>
+    .col {
+      background-color: pink;
+    }
+
+    .test {
+      animation: 3s ease-in 1s infinite reverse both running;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <h1>Hello World!</h1>
+    <p>重置浏览器大小查效果。</p>
+    <p> 在移动设备上，即屏幕宽度小于 576px 时，四个列将会上下堆叠排版。</p>
+    <div class="row row-cols-3">
+      <div class="col-sm" style="background-color:lavender;">.col-sm-3</div>
+      <div class="col-sm" style="background-color:lavenderblush;">.col-sm-3</div>
+      <div class="col-sm" style="background-color:lavenderblush;">.col-sm-3</div>
+      <div class="col-sm" style="background-color:lavenderblush;">.col-sm-3</div>
+    </div>
+  </div>
+  <table class="table table-hover table-sm table-responsive-sm">
+    <thead class="thead-light">
+      <tr>
+        <th>Title1</th>
+        <th>Title2</th>
+        <th>Title3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>test</td>
+        <td>test</td>
+        <td>test</td>
+      </tr>
+      <tr>
+        <td>test2</td>
+        <td>test2</td>
+        <td>test2</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="container">
+    <div class="alert alert-success alert-dismissible fade show">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <strong>成功！</strong>
+    </div>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-success">hhh</button>
+    <button type="button" class="btn btn-outline-primary">jjj</button>
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">下拉</button>
+    <div class="dropdown-menu test">
+      <a href="" class="dropdown-item">1</a>
+      <a href="" class="dropdown-item">2</a>
+      <a href="" class="dropdown-item">3</a>
+    </div>
+  </div>
+</body>
+
+</html>
